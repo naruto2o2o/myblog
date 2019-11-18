@@ -1,0 +1,7 @@
+FROM centos
+
+RUN     yum  -y  install ruby     \
+    &&  yum  -y  install rubygems \
+    &&  curl -sL https://rpm.nodesource.com/setup_10.x | bash - \
+    &&  yum  -y  install nodejs    \
+    &&  yum  -y  install python2   \
