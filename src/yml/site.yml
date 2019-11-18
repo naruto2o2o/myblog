@@ -2,11 +2,10 @@ name: naruto2o2o
 title: naruto2o2o
 description: naruto2o2o
 tags:
-  - blog
-  - template
-  - jekyll
-  - theme
-  - netlify
+  - golang
+  - shell
+  - vim
+  - docker
 email: 2541383431@qq.com
 disqus_username: disqus_username
 show_hero: true
