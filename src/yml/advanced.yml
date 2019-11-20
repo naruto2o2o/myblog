@@ -1,4 +1,12 @@
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site
+url: "http://18cm.biz/" # the base hostname & protocol for your site
 google_analytics: "UA-XXXXXXXX-X"
 language: "cn"
+
+acme.sh  --installcert  -d  18cm.biz   \
+        --key-file   /etc/nginx/ssl/18cm.key \
+        --fullchain-file /etc/nginx/ssl/fullchain.cer \
+        --reloadcmd  "service nginx force-reload"
+
+/etc/nginx/ssl/18cm.key
+/etc/nginx/ssl/fullchain.cer

@@ -9,4 +9,5 @@ tags:
 email: 2541383431@qq.com
 disqus_username: disqus_username
 show_hero: true
-paginate: 1
+paginate: 12
+show_hero: false
